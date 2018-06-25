@@ -1,0 +1,176 @@
+body {
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/*Header*/
+.header-logo {
+  padding: 10px 0px 10px 10px;
+  width: 100%;
+  background-color: #ed1d24;
+  height: 20%;
+  flex-grow: 1;
+}
+.header-logo img {
+  width: 150px;
+  height: auto;
+}
+
+/*HEROES LIST*/
+.list-group {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  background-color: white;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border-top: 5px;
+  border-top-style: solid;
+  border-top-color: #ed1d24;
+}
+
+.list-group li {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-group li:hover {
+  background-color: black;
+  color: white;
+}
+.hero-li-active {
+  background-color: black;
+  color: white;
+}
+.heroes-list-title {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #ed1d24;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-size: 20px;
+
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #ed1d24;
+  -webkit-transform: skewX(-11deg);
+  transform: skewX(-11deg);
+  margin-left: 5%;
+}
+
+.hero-menu-thumbnail {
+  width: 130px;
+  height: 130px;
+  margin-top: 10px;
+}
+
+.hero-name {
+  font-family: "Anton", sans-serif;
+  margin-top: 3px;
+  font-size: 13pt;
+}
+
+/*HERO PAGE*/
+.hero-page-container {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.hero-page {
+  padding-left: 5px;
+  background-color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+  border-top: 5px;
+  border-top-style: solid;
+  border-top-color: #ed1d24;
+}
+
+.img-links-container {
+  width: auto;
+}
+.hero-page img {
+  width: 30%;
+  margin: 10px 10px 0px 10px;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #ed1d24;
+}
+
+.ext-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.ext-links li {
+  margin-left: 1%;
+  padding: 1%;
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #e9e9e9;
+  -webkit-transform: skewX(-11deg);
+  transform: skewX(-11deg);
+}
+
+.ext-links li a {
+  color: black;
+  text-decoration: none;
+}
+
+.sub-title {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #121212;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.hero-description {
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
+.hero-comics ul {
+  display: table;
+  width: auto;
+  list-style: none;
+}
+
+.hero-comics ul li {
+  padding: 8px 0px;
+  border-top: 1px solid #333333;
+}
+
+.hero-comics a {
+  text-decoration: none;
+  color: #333333;
+}
